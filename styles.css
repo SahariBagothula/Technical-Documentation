@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    color: #4d4e53;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  #navbar{
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: solid;
+    border-color: #00161666;
+    height: 100%;
+  }
+  
+  header{
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  
+  #navbar ul{
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  #navbar li{
+    list-style: none;
+    border-top: 1px solid;
+    position: relative;
+    width: 100%;
+  }
+  
+  #navbar a{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #4d4e53;
+    cursor: pointer;
+    display: block;
+  }
+  
+  #main-doc{
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+  }
+  
+  section article{
+    font-size: 0.96em;
+  }
+  
+  section li{
+    margin: 15px 0px 0px 20px;
+  }
+  
+  code{
+    display: block;
+    text-align: left;
+    background-color: #f7f7f7;
+    line-height: 2;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    white-space: pre-line;
+     position: relative;
+  }
